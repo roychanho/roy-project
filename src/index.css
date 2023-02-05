@@ -1,6 +1,17 @@
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #000000;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
 }

@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {}
+@layer base {
+}
 
-@layer components {}
+@layer components {
+  .header {
+    @apply flex items-center justify-between flex-wrap p-6 bg-[#303846];
+  }
+  footer {
+    @apply flex justify-center bg-[#303846];
+  }
+}

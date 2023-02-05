@@ -1,10 +1,19 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+import Banner from "./components/Banner";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import PastWork from "./components/PastWork";
+import Story from "./components/Story";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div className="App">Home page</div>;
+  return (
+    <>
+      <Header />
+      <Banner />
+      <Story />
+      <PastWork />
+      <Footer />
+    </>
+  );
 }
 
 export default App;

@@ -3,13 +3,13 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     screens: {
-      'mobile': '576px',
-      'sm-mobile': {'max' : '576px'},
-      'tablet': '768px',
-      'laptop': '1024px',
-      'md-screen': '1280px',
-      'desktop': '1440px',
-      'lg-screen': '1600px',
+      mobile: "576px",
+      "sm-mobile": { max: "576px" },
+      tablet: "768px",
+      laptop: "1024px",
+      "md-screen": "1280px",
+      desktop: "1440px",
+      "lg-screen": "1600px",
     },
     extend: {
       keyframes: {
